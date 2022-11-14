@@ -162,9 +162,9 @@ person.age='22';
 
 // for in lopp
 
-// for (let i in person) {
-//     console.log( i+" : "+ person[i]);
-// }
+for (let i in person) {
+    console.log( i+" : "+ person[i]);
+}
 
 
  
