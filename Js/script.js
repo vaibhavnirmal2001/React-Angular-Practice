@@ -97,7 +97,79 @@
 // console.log(arr);
 // console.log(arr.indexOf(2));
 
-let v= "vaibhav";
+
+
+//function with argument
+
+// function multiplication(num){
+//     for(let i=0;i<=10;i++){
+//         document.write(`${num} x ${i} = ${num*i}`+" <br/>");
+//     }
+// }
+
+// multiplication(5);
+
+
+
+// let sum=0;
+// function add(){
+//     for (let i = 0; i < arguments.length; i++) {
+//         sum+=arguments[i];
+//     }
+//     return sum;
+// }
+
+// console.log(add(1,2,3,4,5,6,7,8,9,0));
+
+
+
+
+// Anonymous Function
+
+
+// setTimeout(function(){
+//     console.log("hii there");
+// },4000);
+
+// console.log("Immedietly invoked Function");
+
+
+
+
+
+
+// Object
+
+let person={
+    firstName: 'vaibhav',
+    lastName: 'Nirmal'
+};
+
+// console.log(person.firstName+  " "+ person.lastName);
+
+// console.log(person['firstName']);
+person.age='22';
+
+// console.log(person);
+
+// delete person.lastName
+
+// console.log(person);
+
+
+
+
+
+// for in lopp
+
+// for (let i in person) {
+//     console.log( i+" : "+ person[i]);
+// }
+
+
+ 
+
+
 
 
 
