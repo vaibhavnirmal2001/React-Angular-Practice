@@ -72,6 +72,11 @@
             //document.getElementById("btn").innerHTML="logout";
         }
         document.getElementById("btn").addEventListener('click',clicked);
+        window.addEventListener('keydown',fun1);
+
+        function fun1(keyPressed){
+                console.log(keyPressed.key);
+        }
 
     </script>
 
